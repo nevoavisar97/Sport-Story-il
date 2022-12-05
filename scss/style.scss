@@ -45,7 +45,10 @@ $enable-shadows: false;
     margin-left: 0;
 }
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 .back-to-top {
     position: fixed;
