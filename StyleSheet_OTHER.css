@@ -22,3 +22,54 @@
     direction: rtl;
     text-align: center;
 }
+
+#igmock {
+    text-align:center;
+    
+}
+    #igmock img {
+        width: 400px;
+        max-width: 100%;
+    }
+
+@media(max-width:992px) {
+    #about_us {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    #chart img {
+        width: 100%;
+    }
+        #logo_pic {
+        padding-left: 20px !important;
+        width: 120px;
+    }
+    #sendbtn {
+        text-align: center;
+    }
+}
+.contacts input,textarea,.form-control {
+    
+    direction: rtl;
+}
+
+
+
+#sendMessageButton {
+    background: #ff2e4d;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media(min-width:992px) {
+    #chart img {
+        width: 500px;
+    }
+    #logo_pic {
+        padding-left: 20px !important;
+        width: 170px;
+    }
+}

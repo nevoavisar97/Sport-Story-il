@@ -21,6 +21,7 @@
     .popup.active {
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;
+        z-index:9;
     }
 
         .popup.active .close-btn,
@@ -91,6 +92,7 @@
 
 .top-bar {
     position: absolute;
+    z-index:9!important;
     top: 0;
     left: 0;
     width: 100%;
@@ -188,7 +190,7 @@
 @media(max-width:992px) {
     #logo_pic {
         padding-left: 20px !important;
-        width: 120px;
+        width: 75px;
     }
 }
 

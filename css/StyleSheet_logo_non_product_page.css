@@ -1,0 +1,13 @@
+﻿@media(max-width:992px) {
+    #logo_pic {
+        padding-left: 20px !important;
+        width: 75px;
+    }
+}
+
+@media(min-width:992px) {
+    #logo_pic {
+        padding-left: 20px !important;
+        width: 170px;
+    }
+}

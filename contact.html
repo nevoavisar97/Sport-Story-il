@@ -28,7 +28,7 @@
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="" class="navbar-brand">
-                <img id="logo_pic"  src="img/sportstory_logo.png" alt="logo" />
+                <img id="logo_pic" src="img/sportstory_logo.png" alt="logo" />
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -72,42 +72,59 @@
             <div class="d-inline-flex" style="direction:rtl;">
                 <p class="m-0"><a href="">דף הבית</a></p>
                 <p class="m-0 px-2">/</p>
-                <p class="m-0">מי אנחנו?</p>
+                <p class="m-0">צור קשר</p>
             </div>
         </div>
     </div>
     <!-- Page Header End -->
-    <!-- Blog Start -->
+    <!-- Contact Start -->
     <div class="container pt-5">
-        <div class="d-flex flex-column text-center mb-1">
-            <h4 class="text-primary font-weight-bold"> <u>אז מה ה Story שלנו?</u></h4>
-            <p id="about_us">
-                <br />
-                <b>Sport Story</b> הנה חנות וירטואלית לביגוד ספורט.
-                <br />
-                חולצות משחק, חולצות אוהדים, חולצות נבחרות, מכנסי אימון, מכנסי טרנינג,<br /> חליפות אימון, קפוצ׳ונים כובעים ועוד מגוון רחב של מוצרים.
-                <br />
-                כל המוצרים שתמצאו באתר שלנו, יגיעו באיכות וברמה הכי גבוהה, וכמובן במחיר הכי משתלם.<br /><br />
-                אצלנו ב <b>Sport Story</b> , תוכלו למצוא פריטים של כל הקבוצות המובילות בעולם, אם זה בכדורגל, כדורסל אירופאי  <br />וגם מליגת הכדורסל הטובה בעולם - הNBA. <br />
-                <br />
-                <!--<img src="img/about footer addition.jpg" alt="" height="130" />
-                <br /><br />-->
-                אנו מתחייבים לעשות את מירב המאמצים על מנת שתוכלו לרכוש את הפריטים הכי איכותיים, <br />במחיר הכי זול, תוך מתן משלוח בזמן הכי מהיר. <br />
+        <div class="d-flex flex-column text-center mb-4">
+            <h4 class="text-primary font-weight-bold">לרכישה ופרטים נוספים</h4>
+            <h4 class="display-4 font-weight-bold mb-5">דברו איתנו</h4>
+        </div>
 
-                *כלל המוצרים הם רפליקות באיכות הכי גבוהה.<br />
-                <b>
-                    <br />
-                    הסיפור שלנו הוא השילוב של אהבה לספורט לבין הסטייל שנמצא בבגדי ספורט.<br />
-                    ומה הסיפור שלכם?
-                </b>
-                <br /><br /><br />
-                <img src="img/addon.png" alt="" width="350" />
-                <br /><br /><br />
-            </p>
+        <div class="row contacts">
+            <div class="d-none d-md-block col-md-5 pb-5">
+                <img src="img/italy/img5.jpg" style="width: 95%;" />
+            </div>
+            <div class="col-md-7 pb-5">
+                <div class="contact-form">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="name" placeholder="שם" required="required" data-validation-required-message="הזן שם" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required="required" data-validation-required-message="הזן אימייל" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="subject" placeholder="נושא" required="required" data-validation-required-message="הזן את נושא ההודעה" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control" rows="8" id="message" placeholder="תוכן ההודעה" required="required" data-validation-required-message="הזן את תוכן ההודעה"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div id="sendbtn">
+                            <button class="btn btn-outline-primary mb-4" type="submit" id="sendMessageButton">שלח הודעה</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
         </div>
+        <div class="d-flex flex-column text-center pt-2 mb-4 ">
+            <a href="https://www.instagram.com/sportstory.il/"><h5 class="text-primary font-weight-bold">לרכישה דרך עמוד האינסטגרם שלנו</h5></a>
+            <a href="https://www.instagram.com/sportstory.il/"><h2>sportstory.il@</h2></a>
+            <div id="igmock"><a href="https://www.instagram.com/sportstory.il/"><img src="img/igmock.jpg"/></a></div>
+        </div>
+        
     </div>
-    <!-- Blog End -->
+
+
     <!-- Footer Start -->
 
     <div class="footer container-fluid mt-5 py-5 px-sm-3 px-md-5 text-white footer_1">
@@ -156,6 +173,7 @@
     <!-- Footer End -->
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
 
 
     <!-- JavaScript Libraries -->
