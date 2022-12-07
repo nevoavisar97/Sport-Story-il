@@ -23,6 +23,20 @@
     text-align: center;
 }
 
+.league img {
+    max-width: 90%;
+}
+
+.league {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#sbleague {
+    color: #ff2e4d;
+}
+
 #igmock {
     text-align:center;
     
@@ -53,7 +67,14 @@
     direction: rtl;
 }
 
+.footer_ig_btn {
+    width: 40px;
+    height: 40px;
+}
 
+#contact_pic{
+    width: 95%;
+}
 
 #sendMessageButton {
     background: #ff2e4d;

@@ -1,0 +1,149 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+
+#navbarCollapse {
+    direction: rtl !important;
+    font-family: 'Heebo', sans-serif;
+}
+
+#dropdown_1 {
+    direction: rtl;
+    text-align: right;
+    right: 0;
+}
+
+.category {
+    margin-top: 40px;
+    direction: rtl;
+    text-align: center;
+}
+
+.container .league {
+    display: flex;
+    justify-content: center;
+}
+
+.world_cup img {
+    max-width: 100%;
+}
+
+.league img {
+    max-width: 100%;
+}
+
+.league {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.tiktok-embed1 {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+
+
+@media(min-width:901px) {
+    #logo_pic {
+        width: 175px !important;
+    }
+    .container1 img {
+        max-width: 100%;
+        margin: 25px;
+    }
+    .container-fluid.nav-bar, .nav-bar.container-lg, .nav-bar.container-md, .nav-bar.container-sm, .nav-bar.container-xl {
+      position: absolute;
+      z-index: 9!important;
+    }
+}
+
+@media(max-width:900px) {
+    #logo_pic {
+        width: 70px !important;
+    }
+    .container1 img {
+        max-width: 100%;
+        padding: 20px;
+    }
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+#single_head {
+    text-align: center;
+}
+
+#line_nba img {
+    width: 100%;
+}
+
+#sbleague {
+    color: #ff2e4d;
+}
+
+.carousel-caption a {
+    margin-top: 400px !important
+}
+
+.footer_ig_btn {
+    width: 40px;
+    height: 40px;
+}
+
+#headline_pop{
+    text-align:center;
+    margin-bottom:15px;
+}
+.container2 figure {
+    background: black;
+}
+
+    .container2 figure img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .container2 figure:hover img {
+        opacity: .5;
+    }
+
+.container2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-top:30px;
+}
+
+    .container2 img {
+        max-width: 100%;
+    }
+
+@media(min-width: 1000px) {
+    .container2 > div {
+        width: 31%;
+    }
+    .container2{
+        margin-left:170px;
+        margin-right:170px;
+        margin-bottom:100px;
+    }
+}
+
+
+@media(max-width:1000px) {
+    .container2 > div {
+        flex-basis: 49%;
+    }
+}

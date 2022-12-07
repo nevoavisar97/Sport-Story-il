@@ -3,85 +3,6 @@
 
 <head>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
-
-        
-        #navbarCollapse {
-            direction: rtl !important;
-            font-family: 'Heebo', sans-serif;
-        }
-
-        #dropdown_1 {
-            direction: rtl;
-            text-align: right;
-            right: 0;
-        }
-
-        .category {
-            margin-top:40px;
-            direction:rtl;
-            text-align:center;
-        }
-        .container .league {
-            display: flex;
-            justify-content: center;
-        }
-        .world_cup img {
-            max-width:100%;
-        }
-        .league img{
-            max-width:100%;
-        }
-
-        .league{
-            padding-left:20px;
-            padding-right:20px;
-            text-align:center;
-        }
-
-        .tiktok-embed1 {
-            overflow: hidden;
-            margin-top:100px;
-        }
-        .container-fluid.nav-bar, .nav-bar.container-lg, .nav-bar.container-md, .nav-bar.container-sm, .nav-bar.container-xl {
-            position: absolute;
-            z-index: 9
-        }
-
-        @media(min-width:901px) {
-            #logo_pic {
-                width: 175px !important;
-            }
-        }
-        @media(max-width:900px){
-            #logo_pic{
-                width:70px !important;
-            }
-        }
-
-        .container1 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-content: center;
-            text-align:center;
-        }
-        
-            .container1 img {
-                max-width: 100%;
-                margin: 35px;
-            }
-        #single_head{
-            text-align:center;
-      
-        }
-        #line_nba img{
-            width:100%;
-        }
-        #sbleague {
-            color: #ff2e4d;
-        }
-
     </style>
 
     <meta charset="utf-8">
@@ -101,6 +22,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
+
+    <link href="css/StyleSheet_index_page.css" rel="stylesheet" />
 </head>
 
 <body class="bg-white">
@@ -153,21 +76,20 @@
                 <div class="carousel-item active">
                     <img class="w-100" src="img/soccertshirt.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <a href="Ligue 1.html" class="btn btn-md btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5" style="margin-top:500px !important">קנה עכשיו</a>
+                        <a href="Leagues.html" class="btn btn-md btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">קנה עכשיו</a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="w-100" src="img/banner3.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-
-                        <a href="World Cup 2022.html" class="btn btn-md btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5" style="margin-top:500px !important">קנה עכשיו</a>
+                        <a href="World Cup 2022.html" class="btn btn-md btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">קנה עכשיו</a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="w-100" src="img/nbashirt.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
 
-                        <a href="NBA.html" class="btn btn-md btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5" style="margin-top:500px !important">קנה עכשיו</a>
+                        <a href="NBA.html" class="btn btn-md btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">קנה עכשיו</a>
                     </div>
                 </div>
 
@@ -185,7 +107,7 @@
 
     <div class="container1 align-items-center ">
         <div>
-            <a href="Ligue 1.html"><img src="img/category-grid/category.jpg" width="250" /></a>
+            <a href="Leagues.html"><img src="img/category-grid/category.jpg" width="250" /></a>
         </div>
         <div>
             <a href="קפוצ'ונים.html"><img src="img/category-grid/category44.jpg" width="250" /></a>
@@ -195,7 +117,7 @@
     <!--LEAGUE-->
     <br /><br />
     <div class="league mt-5">
-        <h5 id="sbleague"class="font-weight-bold">קנה לפי ליגה</h5>
+        <h5 id="sbleague" class="font-weight-bold">קנה לפי ליגה</h5>
         <img src="img/line.jpg" alt="Alternate Text" />
         <div class="row ">
 
@@ -224,13 +146,13 @@
 
     <!-- Features Start -->
     <div class="container-fluid my-5">
-
-
         <div class="row world_cup mb-5 mt-1">
             <a href="World Cup 2022.html"><img src="img/worldcup.jpg" alt="worldcup" /></a>
-
         </div>
     </div>
+
+
+
     <div id="single_head">
         <h5 class="font-weight-bold">NBA</h5>
         <div id="line_nba"><img src="img/line.jpg" alt="Alternate Text" /></div>
@@ -248,19 +170,32 @@
     </div>
 
 
-    <div class="tiktok-embed1">
-        <script async src="https://www.tiktok.com/embed.js"></script>
-        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sportstoryil" data-unique-id="sportstoryil" data-embed-type="creator" 
-                    "max-width: 1000px; min-width: 288px; border-block-color: #ff344d;"> <section> <a target="_blank" href="https://www.tiktok.com/@sportstoryil?refer=creator_embed">@sportstoryil</a> </section> </blockquote>
+    <div id="headline_pop">
+        <br />
+        <h5 id="sbleague" class="font-weight-bold">מוצרים פופולריים</h5>
+    </div>
+    <div class="container2">
+        <div><figure><img src="img/spain/img1.jpg" class="image" /></figure></div>
+        <div><figure><img src="img/nba/img10.jpg" class="image" /></figure></div>
+        <div><figure><img src="img/israel/img1.jpg" class="image" /></figure></div>
     </div>
 
+
+    <div class="tiktok-embed1">
+        <script async src="https://www.tiktok.com/embed.js"></script>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sportstoryil" data-unique-id="sportstoryil" data-embed-type="creator"> <section> <a target="_blank" href="https://www.tiktok.com/@sportstoryil?refer=creator_embed">@sportstoryil</a> </section> </blockquote>
+    </div>
+
+
+
+    <!--footer-->
     <div class="footer container-fluid mt-5 py-5 px-sm-3 px-md-5 text-white footer_1">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5 text-center instagram_footer">
                 <img src="img/ig-icon.png" width="100" id="ig_icon" />
                 <h5 class="text-primary mb-4">Instagram | @sportstory.il</h5>
                 <p> לפרטים נוספים והזמנות - עקבו אחרינו באינסטגרם:</p>
-                <a class="btn btn-outline-light rounded text-center mr-2 px-0" style="width: 40px; height: 40px;" href="https://www.instagram.com/sportstory.il/"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-light rounded text-center mr-2 px-0 footer_ig_btn" href="https://www.instagram.com/sportstory.il/"><i class="fab fa-instagram"></i></a>
             </div>
             <div class="col-lg-3 col-md-6 mb-5 d-none d-lg-block">
                 <h4 class="text-primary mb-4">ניווט מהיר</h4>
